@@ -1,0 +1,29 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Shell history / secrets
+.bash_history
+.env
+
+# Training outputs / checkpoints
+results/
+runs/
+logs/
+checkpoints/
+*.pth
+*.pt
+*.safetensors
+
+# Full downloaded dataset (only the DataLoc sample is tracked)
+fruits-360*/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
